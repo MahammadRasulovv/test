@@ -28,3 +28,4 @@ if __name__ == "__main__":
     dev.think_about_bugs()
 
     print(f"\n📐 Məntiqi hesablamanın nəticəsi: {calculate_programmer_logic(3, 4)}")
+
