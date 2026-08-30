@@ -26,21 +26,21 @@ class DataEngineProcessor:
 
 
 if __name__ == "__main__":
-    processor = DataEngineProcessor(name="Matrix_ETL_Runner")
+    prasessor = DataEngineProcessor(name="Matrix_ETL_Runner")
 
     # Məlumatları əlavə et
     for i in range(1, 6):
-        processor.add_record(record_id=i, value=i * 10)
+        prasessor.add_record(record_id=i, value=i * 10)
 
     # Process et
-    processor.process_data()
+    prasessor.process_data()
 
 
-    processor = DataEngineProcessor(name="Matrix_ETL_Runner")
+    prasessor = DataEngineProcessor(name="Matrix_ETL_Runner")
 
     for i in range(1, 6):
 
-        processor.add_record(record_id=i, value=i * 10)
+        prasessor.add_record(record_id=i, value=i * 10)
 
 # Level 3 Git test
 
