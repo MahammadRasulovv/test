@@ -2,7 +2,7 @@ import time
 from typing import List, Dict
 
 
-class FastDataProcessor:
+class DataEngineProcessor:
 
     def __init__(self, name: str):
         self.name = name
@@ -26,7 +26,7 @@ class FastDataProcessor:
 
 
 if __name__ == "__main__":
-    processor = FastDataProcessor(name="Matrix_ETL_Runner")
+    processor = DataEngineProcessor(name="Matrix_ETL_Runner")
 
     # Məlumatları əlavə et
     for i in range(1, 6):
@@ -36,11 +36,14 @@ if __name__ == "__main__":
     processor.process_data()
 
 
-    processor = FastDataProcessor(name="Matrix_ETL_Runner")
+    processor = DataEngineProcessor(name="Matrix_ETL_Runner")
 
     for i in range(1, 6):
 
         processor.add_record(record_id=i, value=i * 10)
 
+# Level 3 Git test
 
+# Test Commit
 
+print("Level 3 completed!")
